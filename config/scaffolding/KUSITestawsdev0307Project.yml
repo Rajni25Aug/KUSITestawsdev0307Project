@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/Rajni25Aug
   gitUsername: Rajni25Aug
   gitBranch: main
+services:
+- serviceName: project.kusitestawsdev0307.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBInsert
+  packages:
+  - name: KUSITestawsdev0307Project
+    version: "1.0"
+- serviceName: project.kusitestawsdev0307.integrations:SIQAAdapterFlow
+  packages:
+  - name: KUSITestawsdev0307Project
+    version: "1.0"
